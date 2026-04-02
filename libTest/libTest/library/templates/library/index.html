@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    Домашняя страница
+{% endblock %}
+
+{% block content %}
+    <h1>Приветствуем тебя</h1>
+    <a href="{% url 'book_list' %}">Каталог книг</a>
+{% endblock %}

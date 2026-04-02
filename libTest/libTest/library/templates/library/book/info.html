@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    {{ one_book.title }}
+{% endblock %}
+
+{% block content %}
+<a href="{{ one_book.photo.url}}" target="_blank"> <img src="{{ one_book.photo.url}}" align="left" width="250" height="400"></a>
+    <h2>Название книги: {{ one_book.title }}</h2>
+    <p>Описание: {{ one_book.description }}</p>
+    <p>Количество страниц: {{ one_book.price }}</p>
+    <p>Цена: {{ one_book.price }}</p>
+    <p>Тип обложки: {{ one_book.cover_type }}</p>
+    <p>Размер: {{ one_book.size }}</p>
+    <p>Дата публикации: {{ one_book.publication_date|date:"Y-m-d" }}</p>
+    <a href="{% url 'book_list' %}">Обратно к каталогу</a>
+{% endblock %}
