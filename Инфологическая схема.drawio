@@ -1,0 +1,448 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.1.2 Chrome/138.0.7204.243 Electron/37.4.0 Safari/537.36" version="28.1.2">
+  <diagram name="ERD_Sport_Full_Final" id="k9IRBE6ulMIUMlOCnxKE">
+    <mxGraphModel dx="984" dy="2179" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="4FjGCDXw-4eF3Zw53Ok4-1" value="ТИПЫ СООРУЖЕНИЙ" style="shape=rectangle;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1607" y="-789" width="240" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="4FjGCDXw-4eF3Zw53Ok4-2" value="Код типа сооружения" style="shape=ellipse;whiteSpace=wrap;html=1;strokeColor=#000000;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1897" y="-785" width="160" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="4FjGCDXw-4eF3Zw53Ok4-3" style="startArrow=block;endArrow=block;startFill=1;endFill=1;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="4FjGCDXw-4eF3Zw53Ok4-2" target="4FjGCDXw-4eF3Zw53Ok4-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4FjGCDXw-4eF3Zw53Ok4-4" value="Название" style="shape=ellipse;whiteSpace=wrap;html=1;strokeColor=#000000;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1367" y="-789" width="140" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="4FjGCDXw-4eF3Zw53Ok4-5" style="endArrow=block;endFill=1;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="4FjGCDXw-4eF3Zw53Ok4-1" target="4FjGCDXw-4eF3Zw53Ok4-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4FjGCDXw-4eF3Zw53Ok4-6" value="СПОРТИВНЫЕ СООРУЖЕНИЯ" style="shape=rectangle;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1377" y="-1061" width="360" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="4FjGCDXw-4eF3Zw53Ok4-7" value="Код спортивного сооружения" style="shape=ellipse;whiteSpace=wrap;html=1;strokeColor=#000000;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1477" y="-1169" width="160" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="4FjGCDXw-4eF3Zw53Ok4-8" style="startArrow=block;endArrow=block;startFill=1;endFill=1;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="4FjGCDXw-4eF3Zw53Ok4-7" target="4FjGCDXw-4eF3Zw53Ok4-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4FjGCDXw-4eF3Zw53Ok4-9" value="Название" style="shape=ellipse;whiteSpace=wrap;html=1;strokeColor=#000000;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1297" y="-897" width="140" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="4FjGCDXw-4eF3Zw53Ok4-10" style="endArrow=block;endFill=1;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="4FjGCDXw-4eF3Zw53Ok4-6" target="4FjGCDXw-4eF3Zw53Ok4-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1457" y="-931" />
+              <mxPoint x="1367" y="-931" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4FjGCDXw-4eF3Zw53Ok4-11" value="Код типа сооружения" style="shape=ellipse;whiteSpace=wrap;html=1;strokeColor=#000000;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1677" y="-911" width="180" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="4FjGCDXw-4eF3Zw53Ok4-12" style="startArrow=block;endArrow=block;startFill=1;endFill=1;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="4FjGCDXw-4eF3Zw53Ok4-11" target="4FjGCDXw-4eF3Zw53Ok4-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1647" y="-889" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4FjGCDXw-4eF3Zw53Ok4-13" value="Вместимость" style="shape=ellipse;whiteSpace=wrap;html=1;strokeColor=#000000;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1197" y="-1153" width="140" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="4FjGCDXw-4eF3Zw53Ok4-14" style="endArrow=block;endFill=1;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="4FjGCDXw-4eF3Zw53Ok4-6" target="4FjGCDXw-4eF3Zw53Ok4-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4FjGCDXw-4eF3Zw53Ok4-15" value="Тип покрытия" style="shape=ellipse;whiteSpace=wrap;html=1;strokeColor=#000000;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1727" y="-1169" width="160" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="4FjGCDXw-4eF3Zw53Ok4-16" style="endArrow=block;endFill=1;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="4FjGCDXw-4eF3Zw53Ok4-6" target="4FjGCDXw-4eF3Zw53Ok4-15">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1687" y="-1093" />
+              <mxPoint x="1807" y="-1093" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4FjGCDXw-4eF3Zw53Ok4-17" value="Адрес" style="shape=ellipse;whiteSpace=wrap;html=1;strokeColor=#000000;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1807" y="-989" width="160" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="4FjGCDXw-4eF3Zw53Ok4-18" style="endArrow=block;endFill=1;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="4FjGCDXw-4eF3Zw53Ok4-6" target="4FjGCDXw-4eF3Zw53Ok4-17">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1777" y="-973" />
+              <mxPoint x="1777" y="-967" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4FjGCDXw-4eF3Zw53Ok4-19" value="ВИДЫ СПОРТА" style="shape=rectangle;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1237" y="-603" width="240" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="4FjGCDXw-4eF3Zw53Ok4-20" value="Код вида спорта" style="shape=ellipse;whiteSpace=wrap;html=1;strokeColor=#000000;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1337" y="-513" width="160" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="4FjGCDXw-4eF3Zw53Ok4-21" style="startArrow=block;endArrow=block;startFill=1;endFill=1;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="4FjGCDXw-4eF3Zw53Ok4-20" target="4FjGCDXw-4eF3Zw53Ok4-19">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1417" y="-533" />
+              <mxPoint x="1417" y="-533" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4FjGCDXw-4eF3Zw53Ok4-22" value="Название" style="shape=ellipse;whiteSpace=wrap;html=1;strokeColor=#000000;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1347" y="-683" width="140" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="4FjGCDXw-4eF3Zw53Ok4-23" style="endArrow=block;endFill=1;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="4FjGCDXw-4eF3Zw53Ok4-19" target="4FjGCDXw-4eF3Zw53Ok4-22">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1417" y="-613" />
+              <mxPoint x="1417" y="-613" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4FjGCDXw-4eF3Zw53Ok4-24" value="СПОРТИВНЫЕ КЛУБЫ" style="shape=rectangle;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1787" y="-619" width="240" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="4FjGCDXw-4eF3Zw53Ok4-25" value="Код клуба" style="shape=ellipse;whiteSpace=wrap;html=1;strokeColor=#000000;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="2097" y="-617" width="160" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="4FjGCDXw-4eF3Zw53Ok4-26" style="startArrow=block;endArrow=block;startFill=1;endFill=1;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="4FjGCDXw-4eF3Zw53Ok4-25" target="4FjGCDXw-4eF3Zw53Ok4-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4FjGCDXw-4eF3Zw53Ok4-27" value="Название" style="shape=ellipse;whiteSpace=wrap;html=1;strokeColor=#000000;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1577" y="-617" width="160" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="4FjGCDXw-4eF3Zw53Ok4-28" style="endArrow=block;endFill=1;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="4FjGCDXw-4eF3Zw53Ok4-24" target="4FjGCDXw-4eF3Zw53Ok4-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4FjGCDXw-4eF3Zw53Ok4-29" value="СПОРТСМЕНЫ" style="shape=rectangle;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1597" y="-355" width="320" height="112" as="geometry" />
+        </mxCell>
+        <mxCell id="4FjGCDXw-4eF3Zw53Ok4-30" value="Код спортсмена" style="shape=ellipse;whiteSpace=wrap;html=1;strokeColor=#000000;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1707" y="-493" width="160" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="4FjGCDXw-4eF3Zw53Ok4-31" style="startArrow=block;endArrow=block;startFill=1;endFill=1;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="4FjGCDXw-4eF3Zw53Ok4-30" target="4FjGCDXw-4eF3Zw53Ok4-29">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1787" y="-383" />
+              <mxPoint x="1787" y="-383" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4FjGCDXw-4eF3Zw53Ok4-32" value="ФИО" style="shape=ellipse;whiteSpace=wrap;html=1;strokeColor=#000000;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1887" y="-493" width="160" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="4FjGCDXw-4eF3Zw53Ok4-33" style="endArrow=block;endFill=1;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="4FjGCDXw-4eF3Zw53Ok4-29" target="4FjGCDXw-4eF3Zw53Ok4-32">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1847" y="-402" />
+              <mxPoint x="1967" y="-402" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4FjGCDXw-4eF3Zw53Ok4-34" value="Разряд" style="shape=ellipse;whiteSpace=wrap;html=1;strokeColor=#000000;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1357" y="-433" width="140" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="4FjGCDXw-4eF3Zw53Ok4-35" style="endArrow=block;endFill=1;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="4FjGCDXw-4eF3Zw53Ok4-29" target="4FjGCDXw-4eF3Zw53Ok4-34">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1537" y="-333" />
+              <mxPoint x="1537" y="-411" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4FjGCDXw-4eF3Zw53Ok4-36" value="Код клуба" style="shape=ellipse;whiteSpace=wrap;html=1;strokeColor=#000000;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1517" y="-493" width="160" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="4FjGCDXw-4eF3Zw53Ok4-37" style="startArrow=block;endArrow=block;startFill=1;endFill=1;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="4FjGCDXw-4eF3Zw53Ok4-36" target="4FjGCDXw-4eF3Zw53Ok4-29">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1597" y="-413" />
+              <mxPoint x="1697" y="-413" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4FjGCDXw-4eF3Zw53Ok4-38" value="ТРЕНЕРЫ" style="shape=rectangle;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="836" y="-923" width="280" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4FjGCDXw-4eF3Zw53Ok4-39" value="Код тренера" style="shape=ellipse;whiteSpace=wrap;html=1;strokeColor=#000000;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1067" y="-1065" width="160" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="4FjGCDXw-4eF3Zw53Ok4-40" style="startArrow=block;endArrow=block;startFill=1;endFill=1;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="4FjGCDXw-4eF3Zw53Ok4-39" target="4FjGCDXw-4eF3Zw53Ok4-38">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1147" y="-973" />
+              <mxPoint x="1087" y="-973" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4FjGCDXw-4eF3Zw53Ok4-41" value="ФИО" style="shape=ellipse;whiteSpace=wrap;html=1;strokeColor=#000000;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="827" y="-799" width="160" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="4FjGCDXw-4eF3Zw53Ok4-42" style="endArrow=block;endFill=1;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="4FjGCDXw-4eF3Zw53Ok4-38" target="4FjGCDXw-4eF3Zw53Ok4-41">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="907" y="-833" />
+              <mxPoint x="907" y="-833" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4FjGCDXw-4eF3Zw53Ok4-43" value="Код вида спорта" style="shape=ellipse;whiteSpace=wrap;html=1;strokeColor=#000000;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1008" y="-751" width="180" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="4FjGCDXw-4eF3Zw53Ok4-44" style="startArrow=block;endArrow=block;startFill=1;endFill=1;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="4FjGCDXw-4eF3Zw53Ok4-43" target="4FjGCDXw-4eF3Zw53Ok4-38">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1106" y="-798" />
+              <mxPoint x="1056" y="-798" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4FjGCDXw-4eF3Zw53Ok4-45" value="ТРЕНИРОВКИ" style="shape=rectangle;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="931" y="-493" width="320" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="4FjGCDXw-4eF3Zw53Ok4-46" value="Код тренировки" style="shape=ellipse;whiteSpace=wrap;html=1;strokeColor=#000000;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1011" y="-313" width="160" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="4FjGCDXw-4eF3Zw53Ok4-47" style="startArrow=block;endArrow=block;startFill=1;endFill=1;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="4FjGCDXw-4eF3Zw53Ok4-46" target="4FjGCDXw-4eF3Zw53Ok4-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4FjGCDXw-4eF3Zw53Ok4-48" value="Код тренера" style="shape=ellipse;whiteSpace=wrap;html=1;strokeColor=#000000;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="901" y="-693" width="160" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="4FjGCDXw-4eF3Zw53Ok4-49" style="startArrow=block;endArrow=block;startFill=1;endFill=1;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="4FjGCDXw-4eF3Zw53Ok4-48" target="4FjGCDXw-4eF3Zw53Ok4-45">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1091" y="-671" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4FjGCDXw-4eF3Zw53Ok4-50" value="Код спортсмена" style="shape=ellipse;whiteSpace=wrap;html=1;strokeColor=#000000;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1187" y="-263" width="160" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="4FjGCDXw-4eF3Zw53Ok4-51" style="startArrow=block;endArrow=block;startFill=1;endFill=1;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="4FjGCDXw-4eF3Zw53Ok4-50" target="4FjGCDXw-4eF3Zw53Ok4-45">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1267" y="-343" />
+              <mxPoint x="1217" y="-343" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4FjGCDXw-4eF3Zw53Ok4-52" value="Код вида спорта" style="shape=ellipse;whiteSpace=wrap;html=1;strokeColor=#000000;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="917" y="-593" width="160" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="4FjGCDXw-4eF3Zw53Ok4-53" style="startArrow=block;endArrow=block;startFill=1;endFill=1;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="4FjGCDXw-4eF3Zw53Ok4-52" target="4FjGCDXw-4eF3Zw53Ok4-45">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="981" y="-591" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4FjGCDXw-4eF3Zw53Ok4-54" value="ОРГАНИЗАТОРЫ" style="shape=rectangle;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="2167" y="-1113" width="240" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="4FjGCDXw-4eF3Zw53Ok4-55" value="Код организатора" style="shape=ellipse;whiteSpace=wrap;html=1;strokeColor=#000000;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="2487" y="-1111" width="160" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="4FjGCDXw-4eF3Zw53Ok4-56" style="startArrow=block;endArrow=block;startFill=1;endFill=1;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="4FjGCDXw-4eF3Zw53Ok4-55" target="4FjGCDXw-4eF3Zw53Ok4-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4FjGCDXw-4eF3Zw53Ok4-57" value="ФИО" style="shape=ellipse;whiteSpace=wrap;html=1;strokeColor=#000000;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1857" y="-1111" width="180" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="4FjGCDXw-4eF3Zw53Ok4-58" style="endArrow=block;endFill=1;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="4FjGCDXw-4eF3Zw53Ok4-54" target="4FjGCDXw-4eF3Zw53Ok4-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4FjGCDXw-4eF3Zw53Ok4-59" value="СОРЕВНОВАНИЯ" style="shape=rectangle;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="2107" y="-945" width="360" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="4FjGCDXw-4eF3Zw53Ok4-60" value="Код соревнования" style="shape=ellipse;whiteSpace=wrap;html=1;strokeColor=#000000;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1877" y="-923" width="160" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="4FjGCDXw-4eF3Zw53Ok4-61" style="startArrow=block;endArrow=block;startFill=1;endFill=1;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="4FjGCDXw-4eF3Zw53Ok4-60" target="4FjGCDXw-4eF3Zw53Ok4-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4FjGCDXw-4eF3Zw53Ok4-62" value="Название" style="shape=ellipse;whiteSpace=wrap;html=1;strokeColor=#000000;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="2637" y="-967" width="180" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="4FjGCDXw-4eF3Zw53Ok4-63" style="endArrow=block;endFill=1;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="4FjGCDXw-4eF3Zw53Ok4-59" target="4FjGCDXw-4eF3Zw53Ok4-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4FjGCDXw-4eF3Zw53Ok4-64" value="Код вида спорта" style="shape=ellipse;whiteSpace=wrap;html=1;strokeColor=#000000;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="2077" y="-785" width="160" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="4FjGCDXw-4eF3Zw53Ok4-65" style="startArrow=block;endArrow=block;startFill=1;endFill=1;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="4FjGCDXw-4eF3Zw53Ok4-64" target="4FjGCDXw-4eF3Zw53Ok4-59">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2157" y="-821" />
+              <mxPoint x="2157" y="-821" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4FjGCDXw-4eF3Zw53Ok4-66" value="Код организатора" style="shape=ellipse;whiteSpace=wrap;html=1;strokeColor=#000000;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="2667" y="-879" width="200" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="4FjGCDXw-4eF3Zw53Ok4-67" style="startArrow=block;endArrow=block;startFill=1;endFill=1;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="4FjGCDXw-4eF3Zw53Ok4-66" target="4FjGCDXw-4eF3Zw53Ok4-59">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2567" y="-857" />
+              <mxPoint x="2567" y="-873" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4FjGCDXw-4eF3Zw53Ok4-68" value="Код сооружения" style="shape=ellipse;whiteSpace=wrap;html=1;strokeColor=#000000;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="2367" y="-799" width="160" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="4FjGCDXw-4eF3Zw53Ok4-69" style="startArrow=block;endArrow=block;startFill=1;endFill=1;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="4FjGCDXw-4eF3Zw53Ok4-68" target="4FjGCDXw-4eF3Zw53Ok4-59">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2447" y="-828" />
+              <mxPoint x="2447" y="-828" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4FjGCDXw-4eF3Zw53Ok4-70" value="РЕЗУЛЬТАТЫ" style="shape=rectangle;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="2167" y="-469" width="320" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="4FjGCDXw-4eF3Zw53Ok4-71" value="Код результата" style="shape=ellipse;whiteSpace=wrap;html=1;strokeColor=#000000;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="2607" y="-389" width="160" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="4FjGCDXw-4eF3Zw53Ok4-72" style="startArrow=block;endArrow=block;startFill=1;endFill=1;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="4FjGCDXw-4eF3Zw53Ok4-71" target="4FjGCDXw-4eF3Zw53Ok4-70">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2547" y="-367" />
+              <mxPoint x="2547" y="-393" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4FjGCDXw-4eF3Zw53Ok4-73" value="Код соревнования" style="shape=ellipse;whiteSpace=wrap;html=1;strokeColor=#000000;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="2597" y="-483" width="180" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="4FjGCDXw-4eF3Zw53Ok4-74" style="startArrow=block;endArrow=block;startFill=1;endFill=1;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="4FjGCDXw-4eF3Zw53Ok4-73" target="4FjGCDXw-4eF3Zw53Ok4-70">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2537" y="-421" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4FjGCDXw-4eF3Zw53Ok4-75" value="Код спортсмена" style="shape=ellipse;whiteSpace=wrap;html=1;strokeColor=#000000;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="2437" y="-345" width="160" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="4FjGCDXw-4eF3Zw53Ok4-76" style="startArrow=block;endArrow=block;startFill=1;endFill=1;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="4FjGCDXw-4eF3Zw53Ok4-75" target="4FjGCDXw-4eF3Zw53Ok4-70">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2327" y="-323" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4FjGCDXw-4eF3Zw53Ok4-77" value="Место" style="shape=ellipse;whiteSpace=wrap;html=1;strokeColor=#000000;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="2217" y="-287" width="120" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="4FjGCDXw-4eF3Zw53Ok4-78" style="endArrow=block;endFill=1;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="4FjGCDXw-4eF3Zw53Ok4-70" target="4FjGCDXw-4eF3Zw53Ok4-77">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2287" y="-333" />
+              <mxPoint x="2287" y="-333" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4FjGCDXw-4eF3Zw53Ok4-79" value="НАГРАЖДЕНИЕ" style="shape=rectangle;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="2437" y="-587" width="280" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="4FjGCDXw-4eF3Zw53Ok4-80" value="Код награждения" style="shape=ellipse;whiteSpace=wrap;html=1;strokeColor=#000000;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="2707" y="-803" width="160" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="4FjGCDXw-4eF3Zw53Ok4-81" style="startArrow=block;endArrow=block;startFill=1;endFill=1;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="4FjGCDXw-4eF3Zw53Ok4-80" target="4FjGCDXw-4eF3Zw53Ok4-79">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2787" y="-743" />
+              <mxPoint x="2517" y="-743" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4FjGCDXw-4eF3Zw53Ok4-82" value="Код результата" style="shape=ellipse;whiteSpace=wrap;html=1;strokeColor=#000000;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="2817" y="-679" width="160" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="4FjGCDXw-4eF3Zw53Ok4-83" style="startArrow=block;endArrow=block;startFill=1;endFill=1;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="4FjGCDXw-4eF3Zw53Ok4-82" target="4FjGCDXw-4eF3Zw53Ok4-79">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4FjGCDXw-4eF3Zw53Ok4-84" value="относится к" style="edgeStyle=orthogonalEdgeStyle;startArrow=ERone;endArrow=ERzeroToMany;startFill=0;endFill=0;" edge="1" parent="1" source="4FjGCDXw-4eF3Zw53Ok4-1" target="4FjGCDXw-4eF3Zw53Ok4-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1557" y="-819" />
+              <mxPoint x="1557" y="-819" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4FjGCDXw-4eF3Zw53Ok4-85" value="проводится на" style="edgeStyle=orthogonalEdgeStyle;startArrow=ERone;endArrow=ERzeroToMany;startFill=0;endFill=0;" edge="1" parent="1" source="4FjGCDXw-4eF3Zw53Ok4-6" target="4FjGCDXw-4eF3Zw53Ok4-59">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2177" y="-1017" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4FjGCDXw-4eF3Zw53Ok4-86" value="специализируется на" style="edgeStyle=orthogonalEdgeStyle;startArrow=ERone;endArrow=ERzeroToMany;startFill=0;endFill=0;" edge="1" parent="1" source="4FjGCDXw-4eF3Zw53Ok4-19" target="4FjGCDXw-4eF3Zw53Ok4-38">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1277" y="-913" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4FjGCDXw-4eF3Zw53Ok4-87" value="проводится по" style="edgeStyle=orthogonalEdgeStyle;startArrow=ERone;endArrow=ERzeroToMany;startFill=0;endFill=0;" edge="1" parent="1" source="4FjGCDXw-4eF3Zw53Ok4-19" target="4FjGCDXw-4eF3Zw53Ok4-45">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1306" y="-451" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4FjGCDXw-4eF3Zw53Ok4-88" value="состоит в" style="edgeStyle=orthogonalEdgeStyle;startArrow=ERone;endArrow=ERzeroToMany;startFill=0;endFill=0;" edge="1" parent="1" source="4FjGCDXw-4eF3Zw53Ok4-24" target="4FjGCDXw-4eF3Zw53Ok4-29">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1907" y="-533" />
+              <mxPoint x="2077" y="-533" />
+              <mxPoint x="2077" y="-333" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4FjGCDXw-4eF3Zw53Ok4-89" value="тренирует" style="edgeStyle=orthogonalEdgeStyle;startArrow=ERone;endArrow=ERzeroToMany;startFill=0;endFill=0;" edge="1" parent="1" source="4FjGCDXw-4eF3Zw53Ok4-38" target="4FjGCDXw-4eF3Zw53Ok4-45">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1216" y="-863" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4FjGCDXw-4eF3Zw53Ok4-90" value="тренируется" style="edgeStyle=orthogonalEdgeStyle;startArrow=ERone;endArrow=ERzeroToMany;startFill=0;endFill=0;" edge="1" parent="1" source="4FjGCDXw-4eF3Zw53Ok4-29" target="4FjGCDXw-4eF3Zw53Ok4-45">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1297" y="-299" />
+              <mxPoint x="1297" y="-413" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4FjGCDXw-4eF3Zw53Ok4-91" value="организует" style="edgeStyle=orthogonalEdgeStyle;startArrow=ERone;endArrow=ERzeroToMany;startFill=0;endFill=0;" edge="1" parent="1" source="4FjGCDXw-4eF3Zw53Ok4-54" target="4FjGCDXw-4eF3Zw53Ok4-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4FjGCDXw-4eF3Zw53Ok4-92" value="имеет" style="edgeStyle=orthogonalEdgeStyle;startArrow=ERone;endArrow=ERzeroToMany;startFill=0;endFill=0;" edge="1" parent="1" source="4FjGCDXw-4eF3Zw53Ok4-59" target="4FjGCDXw-4eF3Zw53Ok4-70">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4FjGCDXw-4eF3Zw53Ok4-93" value="участвует" style="edgeStyle=orthogonalEdgeStyle;startArrow=ERone;endArrow=ERzeroToMany;startFill=0;endFill=0;" edge="1" parent="1" source="4FjGCDXw-4eF3Zw53Ok4-29" target="4FjGCDXw-4eF3Zw53Ok4-70">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2107" y="-299" />
+              <mxPoint x="2107" y="-423" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4FjGCDXw-4eF3Zw53Ok4-94" value="приводит к" style="edgeStyle=orthogonalEdgeStyle;startArrow=ERone;endArrow=ERzeroToMany;startFill=0;endFill=0;" edge="1" parent="1" source="4FjGCDXw-4eF3Zw53Ok4-70" target="4FjGCDXw-4eF3Zw53Ok4-79">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2387" y="-551" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
