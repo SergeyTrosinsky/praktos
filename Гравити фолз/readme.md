@@ -73,13 +73,3 @@
 
 <img width="1577" height="530" alt="изображение" src="https://github.com/user-attachments/assets/19588c3a-63f5-465c-8022-6d0af9e2a919" />
 
-
-
-## Быстрый старт
-
-1. Получите API-ключи:
-   - `client_id` и `client_secret` для GigaChat (через платформу Сбера)
-   - токен для Telegram-бота (через @BotFather)
-2. Установите зависимости:
-   ```bash
-   pip install langchain langchain_community yandexcloud gigachat chromadb langchain_chroma huggingface_hub sentence_transformers telebot
